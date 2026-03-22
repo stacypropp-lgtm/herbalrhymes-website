@@ -1192,10 +1192,23 @@ ul { list-style: none; }
 
   .hero__actions {
     flex-direction: column;
+    position: relative;
+    z-index: 100;
   }
 
   .hero__actions .btn {
     width: 100%;
+    -webkit-tap-highlight-color: rgba(196,162,101,0.3);
+    touch-action: manipulation;
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero::before,
+  .hero__botanical {
+    display: none !important;
   }
 
   .credibility-bar__inner {
