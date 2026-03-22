@@ -335,6 +335,8 @@ ul { list-style: none; }
   height: 600px;
   background: radial-gradient(circle, rgba(196,162,101,0.12) 0%, transparent 70%);
   border-radius: 50%;
+  pointer-events: none;
+  z-index: 0;
 }
 
 .hero__content {
@@ -378,6 +380,22 @@ ul { list-style: none; }
   bottom: 0;
   width: 300px;
   opacity: 0.08;
+  pointer-events: none;
+  z-index: 0;
+}
+.hero__content {
+  position: relative;
+  z-index: 1;
+}
+.hero__actions {
+  position: relative;
+  z-index: 2;
+}
+.hero__actions .btn {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  z-index: 2;
 }
 
 /* --- Credibility Bar --- */
