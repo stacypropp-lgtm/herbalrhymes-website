@@ -42,6 +42,17 @@
 <body class="page-body">
   <a href="#main" class="skip-link">Skip to main content</a>
 
+  <!-- Exam Countdown Banner -->
+  <div class="exam-banner" id="exam-banner">
+    <div class="exam-banner__inner">
+      <span class="exam-banner__text">NCCAOM board exams are approaching. Start your prep today.</span>
+      <a href="https://herbalrhymes.gumroad.com/l/hccbji" class="exam-banner__btn" target="_blank" rel="noopener">Get the Ultimate Bundle &rarr;</a>
+    </div>
+    <button class="exam-banner__close" onclick="document.getElementById('exam-banner').style.display='none';sessionStorage.setItem('bannerDismissed','1')" aria-label="Close banner">&times;</button>
+  </div>
+  <script>if(sessionStorage.getItem('bannerDismissed'))document.getElementById('exam-banner').style.display='none';</script>
+
+
   <!-- Header -->
   <header class="site-header" role="banner">
     <div class="container site-header__inner">
@@ -58,16 +69,13 @@
       <label for="nav-toggle" class="hamburger-label" aria-label="Toggle navigation menu">
         <span></span>
       </label>
-      <nav class="nav-links" aria-label="Main navigation">
-        <a href="index.html">Home</a>
+            <nav class="nav-links" aria-label="Main navigation">
         <a href="study-guides.html">Study Guides</a>
         <a href="books.html" class="active">Books</a>
-        <a href="free-resources.html">Free Resources</a>
+        <a href="free-resources.html">Free Samples</a>
         <a href="blog.html">Blog</a>
-        <a href="https://stacypropp-lgtm.github.io/element-quiz/" target="_blank" rel="noopener" style="color: #C4973B;">🌿 Element Quiz</a>
         <a href="about.html">About</a>
-        <a href="faq.html">FAQ</a>
-        <a href="contact.html">Contact</a>
+        <a href="https://stacypropp-lgtm.github.io/element-quiz/" target="_blank" rel="noopener" style="color: #C4973B;">🌿 Element Quiz</a>
       </nav>
     </div>
   </header>
@@ -107,6 +115,7 @@
               <li>Covers content for both NCCAOM and CALE exams</li>
             </ul>
             <p style="font-size: 0.9rem; color: var(--charcoal-light);">ISBN: 979-8-9954699-1-9 · Paperback $39.95 · Ebook $9.99</p>
+            <p style="font-size: 0.9rem; color: var(--green); font-weight: 500; margin-top: 0.5rem;">Kindle ebook available now. Paperback in review.</p>
             <div style="display: flex; gap: 0.75rem; flex-wrap: wrap; margin-top: 1rem;">
               <!-- TODO: Replace with actual Amazon product URLs when available -->
               <a href="mailto:info@herbalrhymes.com" class="btn btn--gold btn--lg">Coming to Amazon Soon</a>
@@ -142,6 +151,7 @@
               <li>Covers content for NCCAOM and CALE exams</li>
             </ul>
             <p style="font-size: 0.9rem; color: var(--charcoal-light);">ISBN: 979-8-9954699-3-3 · Paperback $44.95 · Ebook $9.99</p>
+            <p style="font-size: 0.9rem; color: var(--green); font-weight: 500; margin-top: 0.5rem;">Kindle ebook available now. Paperback in review.</p>
             <div style="display: flex; gap: 0.75rem; flex-wrap: wrap; margin-top: 1rem;">
               <!-- TODO: Replace with actual Amazon product URLs when available -->
               <a href="mailto:info@herbalrhymes.com" class="btn btn--gold btn--lg">Coming to Amazon Soon</a>
@@ -168,6 +178,7 @@
             <h3>Your Body Is Trying to Tell You Something</h3>
             <p class="product-card__desc">A guide to understanding your body's signals through the lens of Traditional Chinese Medicine. Learn to listen to what your body is communicating.</p>
             <p style="font-size: 0.85rem; color: var(--charcoal-light);">ISBN: 979-8-9954699-0-2 · Paperback $39.95 · Ebook $9.99</p>
+            <p style="font-size: 0.85rem; color: var(--gold-dark); font-style: italic; margin-top: 0.5rem;">Print edition coming soon. This is a brand new title &mdash; not available digitally yet.</p>
             <span class="product-badge" style="position: static; display: inline-block; margin-top: 1rem; background: var(--charcoal-light);">Coming Soon</span>
           </div>
 
@@ -179,6 +190,7 @@
             <h3>What Would Your Acupuncturist Say?</h3>
             <p class="product-card__desc">Practical wisdom from the acupuncture treatment room. What your acupuncturist wishes you knew about health, healing, and living well.</p>
             <p style="font-size: 0.85rem; color: var(--charcoal-light);">ISBN: 979-8-9954699-2-6 · Paperback $34.95 · Ebook $9.99</p>
+            <p style="font-size: 0.85rem; color: var(--gold-dark); font-style: italic; margin-top: 0.5rem;">Print edition coming soon. This is a brand new title &mdash; not available digitally yet.</p>
             <span class="product-badge" style="position: static; display: inline-block; margin-top: 1rem; background: var(--charcoal-light);">Coming Soon</span>
           </div>
         </div>

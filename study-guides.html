@@ -119,6 +119,17 @@
 <body class="page-body">
   <a href="#main" class="skip-link">Skip to main content</a>
 
+  <!-- Exam Countdown Banner -->
+  <div class="exam-banner" id="exam-banner">
+    <div class="exam-banner__inner">
+      <span class="exam-banner__text">NCCAOM board exams are approaching. Start your prep today.</span>
+      <a href="https://herbalrhymes.gumroad.com/l/hccbji" class="exam-banner__btn" target="_blank" rel="noopener">Get the Ultimate Bundle &rarr;</a>
+    </div>
+    <button class="exam-banner__close" onclick="document.getElementById('exam-banner').style.display='none';sessionStorage.setItem('bannerDismissed','1')" aria-label="Close banner">&times;</button>
+  </div>
+  <script>if(sessionStorage.getItem('bannerDismissed'))document.getElementById('exam-banner').style.display='none';</script>
+
+
   <!-- Header -->
   <header class="site-header" role="banner">
     <div class="container site-header__inner">
@@ -135,16 +146,13 @@
       <label for="nav-toggle" class="hamburger-label" aria-label="Toggle navigation menu">
         <span></span>
       </label>
-      <nav class="nav-links" aria-label="Main navigation">
-        <a href="index.html">Home</a>
+            <nav class="nav-links" aria-label="Main navigation">
         <a href="study-guides.html" class="active">Study Guides</a>
         <a href="books.html">Books</a>
-        <a href="free-resources.html">Free Resources</a>
+        <a href="free-resources.html">Free Samples</a>
         <a href="blog.html">Blog</a>
-        <a href="https://stacypropp-lgtm.github.io/element-quiz/" target="_blank" rel="noopener" style="color: #C4973B;">🌿 Element Quiz</a>
         <a href="about.html">About</a>
-        <a href="faq.html">FAQ</a>
-        <a href="contact.html">Contact</a>
+        <a href="https://stacypropp-lgtm.github.io/element-quiz/" target="_blank" rel="noopener" style="color: #C4973B;">🌿 Element Quiz</a>
       </nav>
     </div>
   </header>
@@ -156,6 +164,105 @@
         <span class="section-label">Digital Downloads</span>
         <h1>Study Guides</h1>
         <p>Mnemonic-powered study tools verified against Bensky's Materia Medica &amp; Deadman's Manual of Acupuncture. Instant PDF download.</p>
+      </div>
+    </section>
+
+    <!-- Comparison Table -->
+    <section class="section" aria-labelledby="compare-heading">
+      <div class="container text-center">
+        <span class="section-label">Compare Packages</span>
+        <h2 id="compare-heading" class="section-title">What's Included in Each Bundle</h2>
+        <div class="comparison-wrapper">
+          <table class="comparison-table">
+            <thead>
+              <tr>
+                <th>What You Get</th>
+                <th>Herb Only<br>$24.95</th>
+                <th>Formula Only<br>$27.95</th>
+                <th>Acupoint Only<br>$29.95</th>
+                <th>Herbs + Formulas<br>$59.95</th>
+                <th class="col-ultimate">ULTIMATE<br>$89.95 <span class="best-value-badge">Best Value</span></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Herb Flashcards (217)</td>
+                <td class="check">&#10003;</td>
+                <td class="dash">&mdash;</td>
+                <td class="dash">&mdash;</td>
+                <td class="check">&#10003;</td>
+                <td class="col-ultimate check">&#10003;</td>
+              </tr>
+              <tr>
+                <td>Herb Cheat Sheets (13)</td>
+                <td class="check">&#10003;</td>
+                <td class="dash">&mdash;</td>
+                <td class="dash">&mdash;</td>
+                <td class="check">&#10003;</td>
+                <td class="col-ultimate check">&#10003;</td>
+              </tr>
+              <tr>
+                <td>Formula Flashcards (128)</td>
+                <td class="dash">&mdash;</td>
+                <td class="check">&#10003;</td>
+                <td class="dash">&mdash;</td>
+                <td class="check">&#10003;</td>
+                <td class="col-ultimate check">&#10003;</td>
+              </tr>
+              <tr>
+                <td>Formula Cheat Sheets (27)</td>
+                <td class="dash">&mdash;</td>
+                <td class="check">&#10003;</td>
+                <td class="dash">&mdash;</td>
+                <td class="check">&#10003;</td>
+                <td class="col-ultimate check">&#10003;</td>
+              </tr>
+              <tr>
+                <td>Acupoint Flashcards (361+)</td>
+                <td class="dash">&mdash;</td>
+                <td class="dash">&mdash;</td>
+                <td class="check">&#10003;</td>
+                <td class="dash">&mdash;</td>
+                <td class="col-ultimate check">&#10003;</td>
+              </tr>
+              <tr>
+                <td>Acupoint Category Sheets</td>
+                <td class="dash">&mdash;</td>
+                <td class="dash">&mdash;</td>
+                <td class="check">&#10003;</td>
+                <td class="dash">&mdash;</td>
+                <td class="col-ultimate check">&#10003;</td>
+              </tr>
+              <tr>
+                <td>Channel Summaries</td>
+                <td class="dash">&mdash;</td>
+                <td class="dash">&mdash;</td>
+                <td class="check">&#10003;</td>
+                <td class="dash">&mdash;</td>
+                <td class="col-ultimate check">&#10003;</td>
+              </tr>
+              <tr>
+                <td>Practice Questions</td>
+                <td>150+</td>
+                <td class="dash">&mdash;</td>
+                <td>150+</td>
+                <td>250+</td>
+                <td class="col-ultimate"><strong>300+</strong></td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td>Price</td>
+                <td>$24.95</td>
+                <td>$27.95</td>
+                <td>$29.95</td>
+                <td>$59.95</td>
+                <td class="col-ultimate"><strong>$89.95</strong></td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+        <a href="https://herbalrhymes.gumroad.com/l/hccbji" class="btn btn--gold btn--lg" target="_blank" rel="noopener">Get the Ultimate Bundle</a>
       </div>
     </section>
 

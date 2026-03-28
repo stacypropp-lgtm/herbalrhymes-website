@@ -18,6 +18,17 @@
 </head>
 <body class="page-body">
   <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- Exam Countdown Banner -->
+  <div class="exam-banner" id="exam-banner">
+    <div class="exam-banner__inner">
+      <span class="exam-banner__text">NCCAOM board exams are approaching. Start your prep today.</span>
+      <a href="https://herbalrhymes.gumroad.com/l/hccbji" class="exam-banner__btn" target="_blank" rel="noopener">Get the Ultimate Bundle &rarr;</a>
+    </div>
+    <button class="exam-banner__close" onclick="document.getElementById('exam-banner').style.display='none';sessionStorage.setItem('bannerDismissed','1')" aria-label="Close banner">&times;</button>
+  </div>
+  <script>if(sessionStorage.getItem('bannerDismissed'))document.getElementById('exam-banner').style.display='none';</script>
+
   <header class="site-header" role="banner">
     <div class="container site-header__inner">
       <a href="index.html" class="logo" aria-label="Herbal Rhymes — Home">
@@ -33,16 +44,13 @@
       <label for="nav-toggle" class="hamburger-label" aria-label="Toggle navigation menu">
         <span></span>
       </label>
-      <nav class="nav-links" aria-label="Main navigation">
-        <a href="index.html">Home</a>
+            <nav class="nav-links" aria-label="Main navigation">
         <a href="study-guides.html">Study Guides</a>
         <a href="books.html">Books</a>
-        <a href="free-resources.html">Free Resources</a>
+        <a href="free-resources.html">Free Samples</a>
         <a href="blog.html" class="active">Blog</a>
-        <a href="https://stacypropp-lgtm.github.io/element-quiz/" target="_blank" rel="noopener" style="color: #C4973B;">🌿 Element Quiz</a>
         <a href="about.html">About</a>
-        <a href="faq.html">FAQ</a>
-        <a href="contact.html">Contact</a>
+        <a href="https://stacypropp-lgtm.github.io/element-quiz/" target="_blank" rel="noopener" style="color: #C4973B;">🌿 Element Quiz</a>
       </nav>
     </div>
   </header>
@@ -66,6 +74,7 @@
             <h2><a href="blog/5-herbs-everyone-confuses-on-nccaom.html">5 Herbs Everyone Confuses on the NCCAOM — And How to Never Mix Them Up Again</a></h2>
             <p>Huang Qi vs. Dang Gui. Bai Zhu vs. Cang Zhu. If these pairs make you sweat, you're not alone. Here's how mnemonic anchoring makes the differences stick permanently.</p>
             <div class="blog-card__meta">
+              <span class="blog-card__date">March 22, 2026</span>
               <span>Dr. Stacy Peck, DACM</span>
               <span>8 min read</span>
             </div>
@@ -77,6 +86,7 @@
             <h2><a href="blog/spaced-repetition-tcm-herbs.html">How to Use Spaced Repetition to Memorize 217 TCM Herbs (Without Burning Out)</a></h2>
             <p>The science behind why cramming fails and how spaced repetition — combined with mnemonic encoding — can cut your study time in half while doubling retention.</p>
             <div class="blog-card__meta">
+              <span class="blog-card__date">March 22, 2026</span>
               <span>Dr. Stacy Peck, DACM</span>
               <span>10 min read</span>
             </div>
@@ -88,6 +98,7 @@
             <h2><a href="blog/chai-hu-everything-you-need-to-know.html">Chai Hu: Everything You Need to Know for the Boards (Plus a Poem That Sticks)</a></h2>
             <p>Channel tropism, key actions, common formulas, and the one contraindication that shows up on every practice exam. Plus the Herbal Rhymes mnemonic that makes it unforgettable.</p>
             <div class="blog-card__meta">
+              <span class="blog-card__date">March 22, 2026</span>
               <span>Dr. Stacy Peck, DACM</span>
               <span>6 min read</span>
             </div>
@@ -99,6 +110,7 @@
             <h2><a href="blog/nccaom-herbology-exam-what-to-expect.html">NCCAOM Herbology Exam: What to Actually Expect (From Someone Who Passed)</a></h2>
             <p>Question format, time management, which categories get tested most heavily, and the study schedule that worked. A practical guide from a DACM who's been through it.</p>
             <div class="blog-card__meta">
+              <span class="blog-card__date">March 22, 2026</span>
               <span>Dr. Stacy Peck, DACM</span>
               <span>12 min read</span>
             </div>
@@ -110,6 +122,7 @@
             <h2><a href="blog/why-poems-work-better-than-flashcards.html">Why Poems Work Better Than Flashcards for Herb Memorization (The Cognitive Science)</a></h2>
             <p>Dual coding theory, elaborative encoding, and emotional salience — the three reasons mnemonic poetry creates stronger memory traces than rote repetition.</p>
             <div class="blog-card__meta">
+              <span class="blog-card__date">March 22, 2026</span>
               <span>Dr. Stacy Peck, DACM</span>
               <span>7 min read</span>
             </div>
@@ -121,6 +134,7 @@
             <h2><a href="blog/release-exterior-herbs-complete-guide.html">Release the Exterior Herbs: A Complete Study Guide for Board Exams</a></h2>
             <p>Wind-Cold vs. Wind-Heat, the key herbs in each subcategory, must-know contraindications, and comparison tables for the pairs that trip everyone up.</p>
             <div class="blog-card__meta">
+              <span class="blog-card__date">March 22, 2026</span>
               <span>Dr. Stacy Peck, DACM</span>
               <span>15 min read</span>
             </div>
@@ -132,6 +146,7 @@
             <h2><a href="blog/12-must-know-acupoints-nccaom.html">12 Must-Know Acupoints for the NCCAOM (And Memory Tricks for Each)</a></h2>
             <p>LI 4, ST 36, SP 6 — you know the names, but can you recall every indication under pressure? Here are the 12 highest-yield points and mnemonic anchors to lock them in.</p>
             <div class="blog-card__meta">
+              <span class="blog-card__date">March 22, 2026</span>
               <span>Dr. Stacy Peck, DACM</span>
               <span>9 min read</span>
             </div>
@@ -143,6 +158,7 @@
             <h2><a href="blog/memorize-14-channels-without-losing-your-mind.html">How to Memorize All 14 Channels Without Losing Your Mind</a></h2>
             <p>Pathway trajectories, internal–external pairings, and the flow sequence — broken down into a system you can actually remember. Plus the visualization technique that makes it click.</p>
             <div class="blog-card__meta">
+              <span class="blog-card__date">March 22, 2026</span>
               <span>Dr. Stacy Peck, DACM</span>
               <span>11 min read</span>
             </div>
@@ -154,6 +170,7 @@
             <h2><a href="blog/point-location-questions-board-exams.html">The Point Location Questions You Will See on Board Exams</a></h2>
             <p>Anatomical landmarks, cun measurements, and the tricky location questions that show up again and again on the NCCAOM and CALE. Know these patterns and you won't be caught off guard.</p>
             <div class="blog-card__meta">
+              <span class="blog-card__date">March 22, 2026</span>
               <span>Dr. Stacy Peck, DACM</span>
               <span>10 min read</span>
             </div>
@@ -165,6 +182,7 @@
             <h2><a href="blog/10-most-important-acupuncture-points.html">The 10 Most Important Acupuncture Points Every Student Must Know</a></h2>
             <p>From LI 4 to KI 3, these ten points appear on every board exam and in every clinic. Master their locations, actions, and indications — and you'll have the foundation for everything else.</p>
             <div class="blog-card__meta">
+              <span class="blog-card__date">March 24, 2026</span>
               <span>Dr. Stacy Peck, DACM</span>
               <span>10 min read</span>
             </div>
@@ -176,6 +194,7 @@
             <h2><a href="blog/five-shu-points-explained.html">Five Shu Points Explained: The Memory System That Makes Them Click</a></h2>
             <p>Jing-Well, Ying-Spring, Shu-Stream, Jing-River, He-Sea — the five transporting points seem complex until you see the pattern. Here's the mnemonic framework that makes the element correspondences unforgettable.</p>
             <div class="blog-card__meta">
+              <span class="blog-card__date">March 24, 2026</span>
               <span>Dr. Stacy Peck, DACM</span>
               <span>12 min read</span>
             </div>
@@ -187,8 +206,22 @@
             <h2><a href="blog/point-categories-decoded.html">Point Categories Decoded: Yuan, Luo, Xi-Cleft and Why They Matter for Boards</a></h2>
             <p>Yuan-Source, Luo-Connecting, Xi-Cleft, Back-Shu, Front-Mu — these categories are the backbone of acupuncture board questions. Learn what each category does, when to use it, and how to keep them straight.</p>
             <div class="blog-card__meta">
+              <span class="blog-card__date">March 24, 2026</span>
               <span>Dr. Stacy Peck, DACM</span>
               <span>14 min read</span>
+            </div>
+          </article>
+
+
+          <!-- Article 13 -->
+          <article class="blog-card">
+            <div class="blog-card__category">Formulas</div>
+            <h2><a href="blog/tcm-formula-families.html">TCM Formula Families: How 10 Base Formulas Become 50+</a></h2>
+            <p>Si Jun Zi Tang, Si Wu Tang, Xiao Yao San — learn the modification logic that turns a handful of base formulas into the entire TCM formulary.</p>
+            <div class="blog-card__meta">
+              <span class="blog-card__date">March 24, 2026</span>
+              <span>Dr. Stacy Peck, DACM</span>
+              <span>11 min read</span>
             </div>
           </article>
 

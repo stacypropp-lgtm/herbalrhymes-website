@@ -19,6 +19,17 @@
 <body class="page-body">
   <a href="#main" class="skip-link">Skip to main content</a>
 
+  <!-- Exam Countdown Banner -->
+  <div class="exam-banner" id="exam-banner">
+    <div class="exam-banner__inner">
+      <span class="exam-banner__text">NCCAOM board exams are approaching. Start your prep today.</span>
+      <a href="https://herbalrhymes.gumroad.com/l/hccbji" class="exam-banner__btn" target="_blank" rel="noopener">Get the Ultimate Bundle &rarr;</a>
+    </div>
+    <button class="exam-banner__close" onclick="document.getElementById('exam-banner').style.display='none';sessionStorage.setItem('bannerDismissed','1')" aria-label="Close banner">&times;</button>
+  </div>
+  <script>if(sessionStorage.getItem('bannerDismissed'))document.getElementById('exam-banner').style.display='none';</script>
+
+
   <!-- Header -->
   <header class="site-header" role="banner">
     <div class="container site-header__inner">
@@ -35,16 +46,13 @@
       <label for="nav-toggle" class="hamburger-label" aria-label="Toggle navigation menu">
         <span></span>
       </label>
-      <nav class="nav-links" aria-label="Main navigation">
-        <a href="index.html">Home</a>
+            <nav class="nav-links" aria-label="Main navigation">
         <a href="study-guides.html">Study Guides</a>
         <a href="books.html">Books</a>
-        <a href="free-resources.html">Free Resources</a>
+        <a href="free-resources.html">Free Samples</a>
         <a href="blog.html">Blog</a>
-        <a href="https://stacypropp-lgtm.github.io/element-quiz/" target="_blank" rel="noopener" style="color: #C4973B;">🌿 Element Quiz</a>
         <a href="about.html">About</a>
-        <a href="faq.html">FAQ</a>
-        <a href="contact.html" class="active">Contact</a>
+        <a href="https://stacypropp-lgtm.github.io/element-quiz/" target="_blank" rel="noopener" style="color: #C4973B;">🌿 Element Quiz</a>
       </nav>
     </div>
   </header>
