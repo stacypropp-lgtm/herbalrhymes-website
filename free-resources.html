@@ -41,6 +41,7 @@
         <a href="books.html">Books</a>
         <a href="free-resources.html" class="active">Free Resources</a>
         <a href="blog.html">Blog</a>
+        <a href="https://stacypropp-lgtm.github.io/element-quiz/" target="_blank" rel="noopener" style="color: #C4973B;">🌿 Element Quiz</a>
         <a href="about.html">About</a>
         <a href="faq.html">FAQ</a>
         <a href="contact.html">Contact</a>
@@ -62,11 +63,19 @@
     <section class="section" aria-labelledby="free-signup-heading">
       <div class="container text-center">
         <h2 id="free-signup-heading" class="section-title">Try the Herbal Rhymes Method — Free</h2>
-        <p class="section-subtitle">Get a taste of the mnemonic study system used for herbs, formulas, and acupuncture points. Download sample flashcards for three foundational herbs: Ma Huang, Chai Hu, and Ren Shen. Each card includes the full mnemonic poem, Board Pearl, and memory trick.</p>
+        <p class="section-subtitle">Get a taste of the mnemonic study system used for herbs, formulas, and acupuncture points. Sample flashcards for three foundational herbs: Ma Huang, Chai Hu, and Ren Shen — plus an acupoint study guide. Each includes the full mnemonic poem, Board Pearl, and memory trick.</p>
 
-        <a href="downloads/Herbal-Rhymes-Free-Sample.pdf" download class="btn btn--gold btn--lg" style="display: inline-block; margin-bottom: 1rem;">⬇ Download Free Herb Flashcards (PDF)</a>
-        <a href="downloads/Herbal-Rhymes-Free-Sample-Acupoints.pdf" download class="btn btn--primary btn--lg" style="display: inline-block; margin-bottom: 1rem; margin-left: 0.5rem;">⬇ Download Free Acupoint Guide (PDF)</a>
-        <p style="font-size: 0.9rem; color: var(--charcoal-light); margin-top: 0.5rem;">Instant downloads — no email required. Enjoy!</p>
+        <div style="max-width: 480px; margin: 2rem auto 0; background: #fff; border-radius: 16px; padding: 2rem; box-shadow: 0 4px 24px rgba(0,0,0,0.08);">
+          <h3 style="font-family: 'Playfair Display', serif; font-size: 1.3rem; margin-bottom: 0.5rem; text-align: center;">Get Your Free Samples</h3>
+          <p style="font-size: 0.95rem; color: var(--charcoal-light); text-align: center; margin-bottom: 1.5rem;">We'll send the samples to your inbox instantly. No spam — just herbs.</p>
+          <!-- TODO: Connect form to email service (ConvertKit, Mailchimp, etc.) -->
+          <form action="https://herbalrhymes.gumroad.com/l/free-samples" method="GET" style="display: flex; flex-direction: column; gap: 0.75rem;">
+            <input type="text" name="name" placeholder="Your first name" required style="padding: 0.75rem 1rem; border: 1px solid #ddd; border-radius: 8px; font-size: 1rem; font-family: inherit;">
+            <input type="email" name="email" placeholder="Your email address" required style="padding: 0.75rem 1rem; border: 1px solid #ddd; border-radius: 8px; font-size: 1rem; font-family: inherit;">
+            <button type="submit" class="btn btn--gold btn--lg" style="width: 100%; border: none; cursor: pointer;">Send Me the Free Samples</button>
+          </form>
+          <p style="font-size: 0.8rem; color: var(--charcoal-light); text-align: center; margin-top: 0.75rem;">Includes: 3 Herb Flashcard Samples + Acupoint Study Guide (PDF)</p>
+        </div>
       </div>
     </section>
 
@@ -188,9 +197,10 @@
         </div>
         <div class="footer-col">
           <h4>Shop</h4>
+          <a href="https://herbalrhymes.gumroad.com/l/hccbji" target="_blank" rel="noopener">Gumroad</a>
           <a href="https://herbalrhymes.etsy.com/listing/4475305868/herbal-rhymes-tcm-herbology-study-guide" target="_blank" rel="noopener">Etsy Store</a>
-          <a href="https://herbalrhymes.gumroad.com/l/ovdabj" target="_blank" rel="noopener">Gumroad</a>
-          <a href="#">Amazon</a>
+          <!-- TODO: Replace with actual Amazon product URLs when available -->
+          <a href="https://amazon.com/author/stacypeck" target="_blank" rel="noopener">Amazon</a>
         </div>
       </div>
       <div class="footer-bottom">
