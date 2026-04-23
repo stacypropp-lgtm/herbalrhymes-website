@@ -3,14 +3,21 @@
   <!-- Main Pages -->
   <url><loc>https://herbalrhymes.com/</loc><lastmod>2026-03-28</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
   <url><loc>https://herbalrhymes.com/study-guides.html</loc><lastmod>2026-03-28</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://herbalrhymes.com/books.html</loc><lastmod>2026-03-28</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://herbalrhymes.com/books.html</loc><lastmod>2026-04-23</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://herbalrhymes.com/free-resources.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://herbalrhymes.com/blog.html</loc><lastmod>2026-03-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://herbalrhymes.com/blog.html</loc><lastmod>2026-04-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://herbalrhymes.com/about.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://herbalrhymes.com/faq.html</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://herbalrhymes.com/contact.html</loc><lastmod>2026-03-22</lastmod><changefreq>yearly</changefreq><priority>0.4</priority></url>
 
-  <!-- Blog Posts -->
+  <!-- Blog Posts (Consumer - April 2026) -->
+  <url><loc>https://herbalrhymes.com/blog/waking-up-at-3am-chinese-medicine.html</loc><lastmod>2026-04-23</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://herbalrhymes.com/blog/tongue-diagnosis-tcm-guide.html</loc><lastmod>2026-04-23</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://herbalrhymes.com/blog/chinese-medicine-body-clock.html</loc><lastmod>2026-04-23</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://herbalrhymes.com/blog/qi-deficiency-symptoms.html</loc><lastmod>2026-04-23</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://herbalrhymes.com/blog/tcm-food-therapy-body-type.html</loc><lastmod>2026-04-23</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Blog Posts (Student - March 2026) -->
   <url><loc>https://herbalrhymes.com/blog/5-herbs-everyone-confuses-on-nccaom.html</loc><lastmod>2026-03-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://herbalrhymes.com/blog/spaced-repetition-tcm-herbs.html</loc><lastmod>2026-03-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://herbalrhymes.com/blog/nccaom-herbology-exam-what-to-expect.html</loc><lastmod>2026-03-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
