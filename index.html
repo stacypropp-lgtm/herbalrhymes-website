@@ -21,16 +21,50 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Herbal Rhymes",
-    "url": "https://herbalrhymes.com",
-    "description": "The complete TCM board prep system — herbs, formulas & acupoints with mnemonics that stick",
-    "founder": {
-      "@type": "Person",
-      "name": "Dr. Stacy Peck",
-      "jobTitle": "DACM, L.Ac.",
-      "description": "Licensed acupuncturist and Doctor of Acupuncture & Chinese Medicine"
-    }
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://herbalrhymes.com/#organization",
+        "name": "Herbal Rhymes",
+        "alternateName": [
+          "HerbalRhymes",
+          "Herbal Rhymes TCM"
+        ],
+        "url": "https://herbalrhymes.com/",
+        "logo": "https://herbalrhymes.com/cover-herbs-2nd.jpg",
+        "description": "The complete TCM board prep system — herbs, formulas & acupoints with mnemonics that stick",
+        "sameAs": [
+          "https://www.instagram.com/herbalrhymes",
+          "https://herbalrhymes.gumroad.com",
+          "https://herbalrhymes.etsy.com",
+          "https://www.amazon.com/stores/author/B0BWV85N8B"
+        ],
+        "founder": {
+          "@id": "https://herbalrhymes.com/#founder"
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://herbalrhymes.com/#founder",
+        "name": "Dr. Stacy Peck",
+        "jobTitle": "DACM, L.Ac.",
+        "description": "Licensed acupuncturist and Doctor of Acupuncture & Chinese Medicine",
+        "image": "https://herbalrhymes.com/headshot.jpg",
+        "sameAs": [
+          "https://www.amazon.com/stores/author/B0BWV85N8B"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://herbalrhymes.com/#website",
+        "name": "Herbal Rhymes",
+        "alternateName": "HerbalRhymes",
+        "url": "https://herbalrhymes.com/",
+        "publisher": {
+          "@id": "https://herbalrhymes.com/#organization"
+        }
+      }
+    ]
   }
   </script>
   <script type="application/ld+json">
