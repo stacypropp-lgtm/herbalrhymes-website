@@ -89,15 +89,6 @@
 <body class="page-body">
   <a href="#main" class="skip-link">Skip to main content</a>
 
-  <!-- Exam Countdown Banner -->
-  <div class="exam-banner" id="exam-banner">
-    <div class="exam-banner__inner">
-      <span class="exam-banner__text">NCBAHM (formerly NCCAOM) board exams are approaching. Start your prep today.</span>
-      <a href="https://herbalrhymes.gumroad.com/l/hccbji" class="exam-banner__btn" target="_blank" rel="noopener">Get the Ultimate Bundle &rarr;</a>
-    </div>
-    <button class="exam-banner__close" onclick="document.getElementById('exam-banner').style.display='none';sessionStorage.setItem('bannerDismissed','1')" aria-label="Close banner">&times;</button>
-  </div>
-  <script>if(sessionStorage.getItem('bannerDismissed'))document.getElementById('exam-banner').style.display='none';</script>
 
 
   <!-- Header -->
@@ -117,10 +108,11 @@
         <span></span>
       </label>
             <nav class="nav-links" aria-label="Main navigation">
-        <a href="study-guides">Study Guides</a>
         <a href="books" class="active">Books</a>
-        <a href="free-resources">Free Samples</a>
+        <a href="shop">Shop</a>
         <a href="blog">Blog</a>
+        <a href="study-guides">Study Guides</a>
+        <a href="free-resources">Free Samples</a>
         <a href="about">About</a>
         <a href="https://stacypropp-lgtm.github.io/element-quiz/" target="_blank" rel="noopener" style="color: #C4973B;">🌿 Element Quiz</a>
       </nav>
@@ -133,68 +125,16 @@
       <div class="container">
         <span class="section-label">Books</span>
         <h1>Books by Dr. Stacy Peck</h1>
-        <p>Mnemonic study guides, body wisdom, and acupuncture insights. All four books available now on Amazon in Kindle and paperback.</p>
+        <p>Two books for everyday readers, two for TCM students. All on Amazon in Kindle and paperback.</p>
       </div>
     </section>
 
-    <!-- Book 1: Herbal Rhymes Second Edition -->
-    <section class="section" aria-labelledby="book-1-heading">
+    <section class="section" style="padding-bottom:0;" aria-labelledby="everyday-heading">
       <div class="container">
-        <div class="book-preview">
-          <div style="flex-shrink:0;max-width:300px;"><img src="cover-herbs-2nd.jpg" alt="Herbal Rhymes Second Edition Book Cover" style="width:100%;border-radius:8px;box-shadow:0 8px 32px rgba(0,0,0,0.15);"></div>
-          </div>
-          <div class="book-info">
-            <h2 id="book-1-heading">Herbal Rhymes: A Mnemonic Study Guide for TCM Herbology</h2>
-            <p><strong>Second Edition</strong> · By Dr. Stacy Peck, DACM, L.Ac.</p>
-            <p>Stop memorizing. Start remembering. This book transforms 217 TCM herbs from an overwhelming data dump into memorable, clinically relevant verse. Each poem is engineered to encode the properties you'll be tested on — temperature, taste, channels, actions, and contraindications.</p>
-            <ul class="book-features">
-              <li>217 herbs from Bensky's Materia Medica, 3rd Edition</li>
-              <li>70+ original mnemonic poems encoding herb properties</li>
-              <li>Board Pearls highlighting must-know exam facts</li>
-              <li>Comparison tables for commonly confused herb pairs</li>
-              <li>150+ practice exam questions with detailed answer explanations</li>
-              <li>Covers content for both NCBAHM and CALE exams</li>
-            </ul>
-            <p style="font-size: 0.9rem; color: var(--charcoal-light);">ISBN: 979-8-9954699-1-9 · Paperback $18.95 · Ebook $9.99</p>
-            <p style="font-size: 0.9rem; color: var(--green); font-weight: 500; margin-top: 0.5rem;">Available now on Amazon.</p>
-            <div style="display: flex; gap: 0.75rem; flex-wrap: wrap; margin-top: 1rem;">
-              <a href="https://amzn.to/4e49God" class="btn btn--gold btn--lg" target="_blank" rel="noopener">Kindle Edition</a>
-              <a href="https://amzn.to/4u7GItx" class="btn btn--outline btn--lg" target="_blank" rel="noopener">Paperback Edition</a>
-            </div>
-          </div>
-        </div>
+        <h2 id="everyday-heading" style="font-size: clamp(1.8rem, 3.4vw, 2.6rem); margin-bottom: 0.5rem;">For everyday life</h2>
+        <p style="max-width: 600px; color: var(--charcoal-light); margin: 0;">Chinese medicine explained for people who just want to feel better. No medical background needed.</p>
       </div>
     </section>
-
-    <!-- Book 2: The Formulas Edition -->
-    <section class="section section--cream-dark" aria-labelledby="book-2-heading">
-      <div class="container">
-        <div class="book-preview">
-          <div style="flex-shrink:0;max-width:300px;"><img src="cover-formulas.jpg" alt="Herbal Rhymes Formulas Edition Book Cover" style="width:100%;border-radius:8px;box-shadow:0 8px 32px rgba(0,0,0,0.15);"></div>
-          </div>
-          <div class="book-info">
-            <h2 id="book-2-heading">Herbal Rhymes: The Formulas Edition</h2>
-            <p>By Dr. Stacy Peck, DACM, L.Ac.</p>
-            <p>The mnemonic approach applied to 128 essential TCM formulas. Composition mnemonics, actions, indications, and modifications — all encoded in memorable verse for board exam prep.</p>
-            <ul class="book-features">
-              <li>128 essential TCM herbal formulas</li>
-              <li>Composition mnemonics for every formula</li>
-              <li>Actions, indications &amp; key modifications</li>
-              <li>Board Pearls for each formula category</li>
-              <li>Practice questions with detailed explanations</li>
-              <li>Covers content for NCBAHM and CALE exams</li>
-            </ul>
-            <p style="font-size: 0.9rem; color: var(--charcoal-light);">ISBN: 979-8-9954699-3-3 · Paperback $34.95 · Ebook $9.99</p>
-            <p style="font-size: 0.9rem; color: var(--green); font-weight: 500; margin-top: 0.5rem;">Available now on Amazon.</p>
-            <div style="display: flex; gap: 0.75rem; flex-wrap: wrap; margin-top: 1rem;">
-              <a href="https://amzn.to/4vjEuIt" class="btn btn--gold btn--lg" target="_blank" rel="noopener">Kindle Edition</a>
-              <a href="https://amzn.to/4uIuB7l" class="btn btn--outline btn--lg" target="_blank" rel="noopener">Paperback Edition</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- Book 3: Your Body Is Trying to Tell You Something -->
     <section class="section" aria-labelledby="book-3-heading">
       <div class="container">
@@ -223,7 +163,6 @@
         </div>
       </div>
     </section>
-
     <!-- Book 4: What Would Your Acupuncturist Say? -->
     <section class="section section--cream-dark" aria-labelledby="book-4-heading">
       <div class="container">
@@ -252,6 +191,68 @@
         </div>
       </div>
     </section>
+    <section class="section section--cream-dark" style="padding-bottom:0;" aria-labelledby="students-heading">
+      <div class="container">
+        <h2 id="students-heading" style="font-size: clamp(1.8rem, 3.4vw, 2.6rem); margin-bottom: 0.5rem;">For TCM students</h2>
+        <p style="max-width: 600px; color: var(--charcoal-light); margin: 0;">The Herbal Rhymes mnemonic study guides for NCBAHM and CALE board prep. <a href="study-guides">Flashcards and cheat sheets are here.</a></p>
+      </div>
+    </section>
+    <!-- Book 1: Herbal Rhymes Second Edition -->
+    <section class="section section--cream-dark" aria-labelledby="book-1-heading">
+      <div class="container">
+        <div class="book-preview">
+          <div style="flex-shrink:0;max-width:300px;"><img src="cover-herbs-2nd.jpg" alt="Herbal Rhymes Second Edition Book Cover" style="width:100%;border-radius:8px;box-shadow:0 8px 32px rgba(0,0,0,0.15);"></div>
+          </div>
+          <div class="book-info">
+            <h2 id="book-1-heading">Herbal Rhymes: A Mnemonic Study Guide for TCM Herbology</h2>
+            <p><strong>Second Edition</strong> · By Dr. Stacy Peck, DACM, L.Ac.</p>
+            <p>Stop memorizing. Start remembering. This book transforms 217 TCM herbs from an overwhelming data dump into memorable, clinically relevant verse. Each poem is engineered to encode the properties you'll be tested on — temperature, taste, channels, actions, and contraindications.</p>
+            <ul class="book-features">
+              <li>217 herbs from Bensky's Materia Medica, 3rd Edition</li>
+              <li>70+ original mnemonic poems encoding herb properties</li>
+              <li>Board Pearls highlighting must-know exam facts</li>
+              <li>Comparison tables for commonly confused herb pairs</li>
+              <li>150+ practice exam questions with detailed answer explanations</li>
+              <li>Covers content for both NCBAHM and CALE exams</li>
+            </ul>
+            <p style="font-size: 0.9rem; color: var(--charcoal-light);">ISBN: 979-8-9954699-1-9 · Paperback $18.95 · Ebook $9.99</p>
+            <p style="font-size: 0.9rem; color: var(--green); font-weight: 500; margin-top: 0.5rem;">Available now on Amazon.</p>
+            <div style="display: flex; gap: 0.75rem; flex-wrap: wrap; margin-top: 1rem;">
+              <a href="https://amzn.to/4e49God" class="btn btn--gold btn--lg" target="_blank" rel="noopener">Kindle Edition</a>
+              <a href="https://amzn.to/4u7GItx" class="btn btn--outline btn--lg" target="_blank" rel="noopener">Paperback Edition</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Book 2: The Formulas Edition -->
+    <section class="section" aria-labelledby="book-2-heading">
+      <div class="container">
+        <div class="book-preview">
+          <div style="flex-shrink:0;max-width:300px;"><img src="cover-formulas.jpg" alt="Herbal Rhymes Formulas Edition Book Cover" style="width:100%;border-radius:8px;box-shadow:0 8px 32px rgba(0,0,0,0.15);"></div>
+          </div>
+          <div class="book-info">
+            <h2 id="book-2-heading">Herbal Rhymes: The Formulas Edition</h2>
+            <p>By Dr. Stacy Peck, DACM, L.Ac.</p>
+            <p>The mnemonic approach applied to 128 essential TCM formulas. Composition mnemonics, actions, indications, and modifications — all encoded in memorable verse for board exam prep.</p>
+            <ul class="book-features">
+              <li>128 essential TCM herbal formulas</li>
+              <li>Composition mnemonics for every formula</li>
+              <li>Actions, indications &amp; key modifications</li>
+              <li>Board Pearls for each formula category</li>
+              <li>Practice questions with detailed explanations</li>
+              <li>Covers content for NCBAHM and CALE exams</li>
+            </ul>
+            <p style="font-size: 0.9rem; color: var(--charcoal-light);">ISBN: 979-8-9954699-3-3 · Paperback $34.95 · Ebook $9.99</p>
+            <p style="font-size: 0.9rem; color: var(--green); font-weight: 500; margin-top: 0.5rem;">Available now on Amazon.</p>
+            <div style="display: flex; gap: 0.75rem; flex-wrap: wrap; margin-top: 1rem;">
+              <a href="https://amzn.to/4vjEuIt" class="btn btn--gold btn--lg" target="_blank" rel="noopener">Kindle Edition</a>
+              <a href="https://amzn.to/4uIuB7l" class="btn btn--outline btn--lg" target="_blank" rel="noopener">Paperback Edition</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
   <!-- Footer -->
@@ -266,7 +267,7 @@
             </svg>
             Herbal Rhymes
           </a>
-          <p>The mnemonic study system for TCM board prep — herbs, formulas &amp; acupoints. Created by Dr. Stacy Peck, DACM, L.Ac.</p>
+          <p>Chinese medicine for everyday life, and the mnemonic study system for TCM board prep. By Dr. Stacy Peck, DACM, L.Ac.</p>
         </div>
         <div class="footer-col">
           <h4>Products</h4>
@@ -274,6 +275,7 @@
           <a href="study-guides">Cheat Sheets</a>
           <a href="study-guides">Study Bundle</a>
           <a href="books">Books</a>
+          <a href="shop">Shop</a>
         </div>
         <div class="footer-col">
           <h4>Resources</h4>
