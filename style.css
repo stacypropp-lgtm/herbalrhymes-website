@@ -713,9 +713,12 @@ ul { list-style: none; }
   box-shadow: var(--shadow-lg);
 }
 
-.about-content h1 {
+.about-content h1,
+.about-content h2 {
   margin-bottom: 0.5rem;
 }
+
+.about-content h2 { font-size: clamp(2rem, 5vw, 3.25rem); }
 
 .about-content .credential {
   font-family: 'Inter', sans-serif;
