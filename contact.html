@@ -108,36 +108,15 @@
     <!-- Contact Section -->
     <section class="section" aria-labelledby="contact-heading">
       <div class="container">
-        <h2 id="contact-heading" class="sr-only">Contact Form and Information</h2>
+        <h2 id="contact-heading" class="sr-only">Contact Information</h2>
 
         <div class="contact-grid">
-          <!-- Form -->
-          <form action="#" method="POST" class="contact-form" aria-label="Contact form">
-            <label>
-              Name
-              <input type="text" name="name" placeholder="Your name" required>
-            </label>
-            <label>
-              Email
-              <input type="email" name="email" placeholder="your@email.com" required>
-            </label>
-            <label>
-              Subject
-              <select name="subject" required aria-label="Subject">
-                <option value="">Select a topic...</option>
-                <option value="product">Product Question</option>
-                <option value="bulk">Bulk / Institutional Order</option>
-                <option value="collaboration">Collaboration / Partnership</option>
-                <option value="media">Media / Press Inquiry</option>
-                <option value="other">Other</option>
-              </select>
-            </label>
-            <label>
-              Message
-              <textarea name="message" rows="6" placeholder="How can we help?" required></textarea>
-            </label>
-            <button type="submit" class="btn btn--primary btn--lg">Send Message</button>
-          </form>
+          <!-- Email (replaces the old form, which never sent anything) -->
+          <div class="contact-form contact-email">
+            <h3>Email us</h3>
+            <p>Questions about study materials, bulk or school orders, collaboration or press? Send a note and Dr. Peck will get back to you.</p>
+            <p><a class="btn btn--primary btn--lg" href="mailto:hello@drstacypeck.com?subject=Herbal%20Rhymes%20question">Email hello@drstacypeck.com</a></p>
+          </div>
 
           <!-- Info Card -->
           <div class="contact-info-card">
@@ -146,12 +125,12 @@
 
             <div class="contact-info-item">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-              <a href="mailto:info@herbalrhymes.com" style="color: var(--cream);">info@herbalrhymes.com</a>
+              <a href="mailto:hello@drstacypeck.com" style="color: var(--cream);">hello@drstacypeck.com</a>
             </div>
 
             <div class="contact-info-item">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-              <span>Mon–Fri, 9am–5pm PST</span>
+              <span>Mon–Fri, 9am–5pm CT</span>
             </div>
 
             <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.1);">
@@ -196,6 +175,8 @@
           <a href="about">About Dr. Peck</a>
           <a href="faq">FAQ</a>
           <a href="contact">Contact</a>
+          <a href="privacy">Privacy</a>
+          <a href="terms">Terms</a>
         </div>
         <div class="footer-col">
           <h4>Shop</h4>
