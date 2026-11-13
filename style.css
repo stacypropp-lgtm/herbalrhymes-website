@@ -1638,3 +1638,6 @@ ul { list-style: none; }
 .v2 .blog-card h2 { font-family: 'Playfair Display', Georgia, serif; }
 .v2 .blog-card__meta { display: flex; flex-wrap: wrap; gap: 0.35rem 1rem; }
 body.v2:has(.article-body) .page-header .container { max-width: 760px; }
+
+/* Product link targets: keep the linked card clear of the fixed header */
+.product-card[id] { scroll-margin-top: 96px; }
